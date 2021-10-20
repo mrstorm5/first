@@ -1,0 +1,24 @@
+//Rextester.Program.Main is the entry point for your code. Don't change it.
+//Microsoft (R) Visual C# Compiler version 2.9.0.63208 (958f2354)
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            //Your code goes here
+        int number = 108156464;
+        string number_text = Convert.ToString(number);
+	                
+            for(var i =1; i<=number_text.Length; i++) {
+            Console.WriteLine(i + " цифра равна " + number_text[i-1]);
+            }
+        }
+    }
+}
